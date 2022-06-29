@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import AfterRender from './AfterRender';
+
+import CounterRender from './Counter';
 
 function App() {
   return (
     <div className="App">
-    <AfterRender/>
+    <CounterRender/>
     </div>
   );
 }

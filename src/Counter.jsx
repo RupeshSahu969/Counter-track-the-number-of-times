@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function AfterRender(){
+function CounterRender(){
 
     const [count,setCount]=useState(0)
 
@@ -20,4 +20,4 @@ function AfterRender(){
     )
 }
 
-export default AfterRender
+export default CounterRender
